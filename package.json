@@ -1,0 +1,56 @@
+{
+  "name": "vscode-material-theme-bc",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "mattma <hi@mattma.io> (https://mattma.io/)",
+  "license": "MIT",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Material Theme Darker High Contrast",
+        "uiTheme": "hc-black",
+        "path": "./themes/Material-Theme-Darker-High-Contrast.json"
+      },
+      {
+        "label": "Material Theme Darker",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Material-Theme-Darker.json"
+      },
+      {
+        "label": "Material Theme Default High Contrast",
+        "uiTheme": "hc-black",
+        "path": "./themes/Material-Theme-Default-High-Contrast.json"
+      },
+      {
+        "label": "Material Theme Default",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Material-Theme-Default.json"
+      },
+      {
+        "label": "Material Theme Lighter High Contrast",
+        "uiTheme": "hc-light",
+        "path": "./themes/Material-Theme-Lighter-High-Contrast.json"
+      },
+      {
+        "label": "Material Theme Lighter",
+        "uiTheme": "vs",
+        "path": "./themes/Material-Theme-Lighter.json"
+      },
+      {
+        "label": "Material Theme Ocean High Contrast",
+        "uiTheme": "hc-black",
+        "path": "./themes/Material-Theme-Ocean-High-Contrast.json"
+      },
+      {
+        "label": "Material Theme Ocean",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Material-Theme-Ocean.json"
+      }
+    ]
+  },
+  "engines": {
+    "node": ">=12",
+    "vscode": "^1.51.0"
+  }
+}
