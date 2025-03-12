@@ -18,6 +18,11 @@
         "path": "./themes/Material-Theme-Darker.json"
       },
       {
+        "label": "Material Theme Darker Enhanced",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Material-Theme-Darker-Enhanced.json"
+      },
+      {
         "label": "Material Theme Default High Contrast",
         "uiTheme": "hc-black",
         "path": "./themes/Material-Theme-Default-High-Contrast.json"
