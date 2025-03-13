@@ -17,6 +17,123 @@
       }
     },
     {
+      "name": "Variable",
+      "scope": "variable, variable.parameter, support.variable, variable.language",
+      "settings": {
+        "foreground": "#E06C75"
+      }
+    },
+    {
+      "name": "Variable White",
+      "scope": "support.constant, meta.definition.variable entity.name.function, meta.function-call.arguments",
+      "settings": {
+        "foreground": "#EEFFFF"
+      }
+    },
+    {
+      "scope": [
+        "meta.property.object"
+      ],
+      "settings": {
+        "foreground": "#E06C75"
+      }
+    },
+    {
+      "scope": [
+        "constant.character.entity"
+      ],
+      "settings": {
+        "foreground": "#E06C75"
+      }
+    },
+    {
+      "scope": [
+        "variable.parameter.function.js"
+      ],
+      "settings": {
+        "foreground": "#E06C75"
+      }
+    },
+    {
+      "scope": [
+        "text.variable",
+        "text.bracketed"
+      ],
+      "settings": {
+        "foreground": "#E06C75"
+      }
+    },
+    {
+      "scope": [
+        "variable.other.constant.property"
+      ],
+      "settings": {
+        "foreground": "#E06C75"
+      }
+    },
+    {
+      "scope": "entity.name.label",
+      "settings": {
+        "foreground": "#E06C75"
+      }
+    },
+    {
+      "scope": [
+        "string.regexp"
+      ],
+      "settings": {
+        "foreground": "#E06C75"
+      }
+    },
+    {
+      "scope": "punctuation.definition.delayed.unison,punctuation.definition.list.begin.unison,punctuation.definition.list.end.unison,punctuation.definition.ability.begin.unison,punctuation.definition.ability.end.unison,punctuation.operator.assignment.as.unison,punctuation.separator.pipe.unison,punctuation.separator.delimiter.unison,punctuation.definition.hash.unison",
+      "settings": {
+        "foreground": "#E06C75"
+      }
+    },
+    {
+      "scope": "variable.other.readwrite,meta.object-literal.key,support.variable.property,support.variable.object.process,support.variable.object.node",
+      "settings": {
+        "foreground": "#E06C75"
+      }
+    },
+    {
+      "scope": "support.type.object.console",
+      "settings": {
+        "foreground": "#E06C75"
+      }
+    },
+    {
+      "scope": "support.variable.dom,support.variable.property.dom",
+      "settings": {
+        "foreground": "#E06C75"
+      }
+    },
+    {
+      "scope": "constant.other.character-class.regexp",
+      "settings": {
+        "foreground": "#E06C75"
+      }
+    },
+    {
+      "scope": "constant.numeric",
+      "settings": {
+        "foreground": "#D19A66"
+      }
+    },
+    {
+      "scope": "constant",
+      "settings": {
+        "foreground": "#D19A66"
+      }
+    },
+    {
+      "scope": "punctuation.definition.constant",
+      "settings": {
+        "foreground": "#D19A66"
+      }
+    },
+    {
       "name": "Punctuation",
       "scope": "punctuation, constant.other.symbol",
       "settings": {
@@ -25,7 +142,7 @@
     },
     {
       "name": "String Escape",
-      "scope": "constant.character.escape, text.html constant.character.entity.named",
+      "scope": "constant.character.escape, text.html",
       "settings": {
         "foreground": "#EEFFFF"
       }
@@ -42,13 +159,6 @@
       "scope": "constant.numeric",
       "settings": {
         "foreground": "#F78C6C"
-      }
-    },
-    {
-      "name": "Variable",
-      "scope": "variable, variable.parameter, support.variable, variable.language, support.constant, meta.definition.variable entity.name.function, meta.function-call.arguments",
-      "settings": {
-        "foreground": "#EEFFFF"
       }
     },
     {
@@ -227,6 +337,42 @@
       "scope": "entity.name.tag",
       "settings": {
         "foreground": "#f07178"
+      }
+    },
+    {
+      "scope": "keyword.other.unit",
+      "settings": {
+        "foreground": "#E06C75"
+      }
+    },
+    {
+      "scope": "source.json meta.structure.dictionary.json > string.quoted.json",
+      "settings": {
+        "foreground": "#E06C75"
+      }
+    },
+    {
+      "scope": "source.json meta.structure.dictionary.json > string.quoted.json > punctuation.string",
+      "settings": {
+        "foreground": "#E06C75"
+      }
+    },
+    {
+      "scope": "support.type.property-name.json",
+      "settings": {
+        "foreground": "#E06C75"
+      }
+    },
+    {
+      "scope": "support.type.property-name.json punctuation",
+      "settings": {
+        "foreground": "#E06C75"
+      }
+    },
+    {
+      "scope": "punctuation.section.embedded, variable.interpolation",
+      "settings": {
+        "foreground": "#E06C75"
       }
     },
     {

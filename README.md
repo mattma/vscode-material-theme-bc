@@ -12,15 +12,20 @@ npm install -g @vscode/vsce
 npx @vscode/vsce init
 ```
 
+## Find the theme setting
+
+1. Open Command Palette (Ctrl + Shift + P / Cmd + Shift + P on Mac).
+2. Choose `Developer: Generate color theme from the current settings`
+
 ## Real-Time Theme Customization in VSCode
 
 VSCode provides a way to edit theme colors dynamically using settings.json:
 
 Method 1: Live Edit with workbench.colorCustomizations
 
-1.	Open Command Palette (Ctrl + Shift + P / Cmd + Shift + P on Mac).
-2.	Search for Preferences: Open Settings (JSON) and open it.
-3.	Add the following snippet to test changes in real-time:
+1. Open Command Palette (Ctrl + Shift + P / Cmd + Shift + P on Mac).
+2. Search for Preferences: Open Settings (JSON) and open it.
+3. Add the following snippet to test changes in real-time:
 
 
 ```json
