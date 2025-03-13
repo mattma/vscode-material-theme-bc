@@ -18,14 +18,57 @@
     },
     {
       "name": "Variable",
-      "scope": "variable, variable.parameter, support.variable, variable.language",
+      "scope": "variable, variable.language",
       "settings": {
         "foreground": "#E06C75"
       }
     },
     {
+      "name": "Variable - object access its property - request.url, request will change color",
+      "scope": "variable.parameter",
+      "settings": {
+        "foreground": "#E5C07B"
+      }
+    },
+    {
+      "name": "Variable - console.log - supporting variable",
+      "scope": "support.variable",
+      "settings": {
+        "foreground": "#ABB2BF"
+      }
+    },
+    {
+      "name": "Variable Constant",
+      "scope": "variable.other.constant",
+      "settings": {
+        "foreground": "#E5C07B"
+      }
+    },
+    {
+      "name": "Function name and its keyword",
+      "scope": [
+        "entity.name.function",
+        "meta.require",
+        "support.function.any-method",
+        "variable.function"
+      ],
+      "settings": {
+        "foreground": "#61AFEF"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.class",
+        "variable.other.class.js",
+        "variable.other.class.ts"
+      ],
+      "settings": {
+        "foreground": "#E5C07B"
+      }
+    },
+    {
       "name": "Variable White",
-      "scope": "support.constant, meta.definition.variable entity.name.function, meta.function-call.arguments",
+      "scope": "support.constant, meta.definition.variable, meta.function-call.arguments",
       "settings": {
         "foreground": "#EEFFFF"
       }
@@ -40,32 +83,7 @@
     },
     {
       "scope": [
-        "constant.character.entity"
-      ],
-      "settings": {
-        "foreground": "#E06C75"
-      }
-    },
-    {
-      "scope": [
         "variable.parameter.function.js"
-      ],
-      "settings": {
-        "foreground": "#E06C75"
-      }
-    },
-    {
-      "scope": [
-        "text.variable",
-        "text.bracketed"
-      ],
-      "settings": {
-        "foreground": "#E06C75"
-      }
-    },
-    {
-      "scope": [
-        "variable.other.constant.property"
       ],
       "settings": {
         "foreground": "#E06C75"
@@ -98,21 +116,23 @@
       }
     },
     {
-      "scope": "support.type.object.console",
-      "settings": {
-        "foreground": "#E06C75"
-      }
-    },
-    {
       "scope": "support.variable.dom,support.variable.property.dom",
       "settings": {
         "foreground": "#E06C75"
       }
     },
     {
-      "scope": "constant.other.character-class.regexp",
+      "name": "console.log - console keyword style",
+      "scope": "support.type.object.console",
       "settings": {
-        "foreground": "#E06C75"
+        "foreground": "#D19A66"
+      }
+    },
+    {
+      "name": "true, false value",
+      "scope": "constant.language.boolean",
+      "settings": {
+        "foreground": "#D19A66"
       }
     },
     {

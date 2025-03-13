@@ -37,6 +37,30 @@ Method 1: Live Edit with workbench.colorCustomizations
   }
 ```
 
+Modify the theme colors
+
+```json
+{
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "keyword.control",
+        "settings": {
+          "foreground": "#FF0000",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": "variable",
+        "settings": {
+          "foreground": "#00FF00"
+        }
+      }
+    ]
+  }
+}
+```
+
 
 ## Release and package the theme
 
