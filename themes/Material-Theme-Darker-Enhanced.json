@@ -386,7 +386,7 @@
     {
       "scope": "support.type.property-name.json punctuation",
       "settings": {
-        "foreground": "#E06C75"
+        "foreground": "#C3E88D"
       }
     },
     {
@@ -931,9 +931,9 @@
     "inputOption.activeBackground": "#EEFFFF30",
     "textLink.foreground": "#80CBC4",
     "textLink.activeForeground": "#EEFFFF",
-    "sideBar.background": "#181818",
-    "sideBar.border": "#2b2b2b",
-    "sideBar.foreground": "#cccccc",
+    "sideBar.background": "#242425",
+    "sideBar.foreground": "#bbb",
+    "sideBar.border": "#353536",
     "sideBarSectionHeader.background": "#181818",
     "sideBarSectionHeader.border": "#2b2b2b",
     "sideBarSectionHeader.foreground": "#cccccc",
@@ -949,7 +949,7 @@
     "scrollbarSlider.hoverBackground": "#EEFFFF10",
     "scrollbarSlider.activeBackground": "#80CBC4",
     "tab.unfocusedActiveBorder": "#545454",
-    "tab.activeForeground": "#FFFFFF",
+    "tab.activeForeground": "#666",
     "tab.inactiveForeground": "#676767",
     "tab.activeBackground": "#212121",
     "tab.unfocusedActiveForeground": "#EEFFFF",
